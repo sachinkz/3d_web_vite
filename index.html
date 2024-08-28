@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Building an augmented reality application with the WebXR Device API</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://unpkg.com/three@0.126.0/build/three.js"></script>
+    <script src="https://unpkg.com/three@0.126.0/examples/js/loaders/GLTFLoader.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="./shared/app.css" />
+    <script src="./shared/utils.js"></script>
+</head>
+
+<body>
+    <div id="enter-ar-info">
+        <div class="heading-and-button">
+            <div>
+                <img class="logo-image" src="/public/logo.png" alt="">
+            </div>
+            <h1 class="maveli-heading">Invite Maveli To Your Home</h1>
+            <a id="enter-ar" class="enter-ar-btn">
+                MEET MAVELI
+                <i class='bx bx-chevron-right'></i>
+            </a>
+        </div>
+        <img class="bottom-maveli-image" src="/public/maveli.png" alt="">
+        <img class="pookkalam-image" src="/public/pookkalam.png" alt="">
+    </div>
+    <div id="prompt">
+        <p style="color: white; font-weight: 800;">Processing...</p>
+    </div>
+    <a href="./review.html" hidden></a>
+
+    <div id="capture-container">
+        <button id="capture-button">
+            <i class='bx bxs-camera'></i>
+        </button>
+    </div>
+    <video id="video" style="display: none;"></video>
+
+    <div id="unsupported-info">
+        <h2>Unsupported Browser or device (Only support in mobile devices)</h2>
+        <p>
+            Your browser or device does not support AR features with WebXR. Try using Chrome browser in a mobile device
+        </p>
+    </div>
+    <script src="/shared/main.js"></script>
+
+    <div id="stabilization"></div>
+</body>
+
+</html>

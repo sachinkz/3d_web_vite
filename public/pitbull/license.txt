@@ -1,0 +1,11 @@
+Model Information:
+* title:	PitBull
+* source:	https://sketchfab.com/3d-models/pitbull-2be37d5b9f754ed4bcc2d8f41b23a1d7
+* author:	Joseph.AD (https://sketchfab.com/Joseph.AD)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "PitBull" (https://sketchfab.com/3d-models/pitbull-2be37d5b9f754ed4bcc2d8f41b23a1d7) by Joseph.AD (https://sketchfab.com/Joseph.AD) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)

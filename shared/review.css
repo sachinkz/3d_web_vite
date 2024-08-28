@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-image: url('/public/pg.jpg');
+}
+
+.container {
+    position: relative;
+    display: inline-block;
+    padding: 50px;
+}
+
+#canvas-container {
+    border: solid 1px white;
+    position: relative;
+    border-radius: 8px;
+}
+
+.banner {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(5, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 8px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+    transform: scaleX(-1);
+}
+
+.buttons-box{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    color: black;
+    font-weight: 800;
+    width: 80px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button i{
+    font-size: 20px;
+}
+
+.download-icon {
+    color: green;
+    font-size: 15px;
+    width: 50px;
+}
+
+
+#captured-image {
+    border-radius: 8px;
+    rotate: 180deg;
+
+} 
