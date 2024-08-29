@@ -161,6 +161,7 @@ class App {
 
     // Load the 3D model
     window.gltfLoader.load("../public/robot/scene.gltf", (gltf) => {
+      alert("loaded");
       // Find the main model in the loaded scene
       const model = gltf.scene.children.find(c => c.name === 'Sketchfab_model')
       model.castShadow = true;
