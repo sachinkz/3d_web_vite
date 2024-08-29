@@ -160,7 +160,7 @@ class App {
     this.camera.matrixAutoUpdate = false;
 
     // Load the 3D model
-    window.gltfLoader.load("https://third-dimension.onrender.com/uploads/5bce0e88-1c04-4f28-8a66-d59b97278eec.glb", (gltf) => {
+    window.gltfLoader.load("https://third-dimension.onrender.com/uploads/f0e375e6-697d-46bd-9cac-b359bec40250.glb", (gltf) => {
       alert("loaded");
       // Find the main model in the loaded scene
       const model = gltf.scene.children.find(c => c.name === 'Sketchfab_model')
