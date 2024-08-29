@@ -43,25 +43,6 @@ class Reticle extends THREE.Object3D {
   }
 }
 
-// "https://third-dimension.onrender.com/uploads/c215e6bd-97ff-424d-9f2b-ade31269c002.glb" "Sketchfab_model"
-
-window.animationClock = new THREE.Clock()
-
-
-// window.gltfLoader.load("../public/robot/scene.gltf", function (gltf) {
-//   const model = gltf.scene.children.find(c => c.name === 'Sketchfab_model')
-//   model.castShadow = true;
-//   model.scale.set(0.09, 0.09, 0.09);
-//   window.sunflower = gltf.scene;
-
-//   window.mixer = THREE.AnimationMixer(model);
-//   let animations = gltf.animations
-//   if (animations) {
-//     const action = mixer.clipAction(animations[0])
-//     action.play();
-//   }
-
-// });
 
 window.DemoUtils = {
   /**
@@ -73,10 +54,7 @@ window.DemoUtils = {
   createLitScene() {
     const scene = new THREE.Scene();
 
-    // The materials will render as a black mesh
-    // without lights in our scenes. Let's add an ambient light
-    // so our material can be visible, as well as a directional light
-    // for the shadow.
+
     const light = new THREE.AmbientLight(0xffffff, 2);
     const directionalLight = new THREE.DirectionalLight(0xffffff, 0.6);
     directionalLight.position.set(10, 15, 10);

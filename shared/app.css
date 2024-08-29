@@ -7,7 +7,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background-image: url('/public/pg.jpg');
+  background-image: url('/pg.jpg');
   -webkit-user-select: none;
   user-select: none;
   background-color: white;

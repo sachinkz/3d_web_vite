@@ -3,7 +3,7 @@ body {
     text-align: center;
     margin: 0;
     padding: 0;
-    background-image: url('/public/pg.jpg');
+    background-image: url('/pg.jpg');
 }
 
 .container {
@@ -37,7 +37,7 @@ img {
     transform: scaleX(-1);
 }
 
-.buttons-box{
+.buttons-box {
     width: 100%;
     display: flex;
     justify-content: center;
@@ -61,7 +61,7 @@ img {
     text-decoration: none;
 }
 
-.button i{
+.button i {
     font-size: 20px;
 }
 
@@ -76,4 +76,4 @@ img {
     border-radius: 8px;
     rotate: 180deg;
 
-} 
+}
