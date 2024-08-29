@@ -161,7 +161,6 @@ class App {
 
     // Load the 3D model
     window.gltfLoader.load("https://third-dimension.onrender.com/uploads/f0e375e6-697d-46bd-9cac-b359bec40250.glb", (gltf) => {
-      alert("loaded");
       // Find the main model in the loaded scene
       const model = gltf.scene.children.find(c => c.name === 'Sketchfab_model')
       model.castShadow = true;
