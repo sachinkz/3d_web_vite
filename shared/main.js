@@ -160,7 +160,7 @@ class App {
     this.camera.matrixAutoUpdate = false;
 
     // Load the 3D model
-    window.gltfLoader.load("/robot/scene.gltf", (gltf) => {
+    window.gltfLoader.load("../public/robot/scene.gltf", (gltf) => {
       // Find the main model in the loaded scene
       const model = gltf.scene.children.find(c => c.name === 'Sketchfab_model')
       model.castShadow = true;
