@@ -7,7 +7,7 @@ body {
   position: fixed;
   width: 100%;
   height: 100vh;
-  background-image: url('/pg.jpg');
+  background-image: url('../public/pg.jpg');
   -webkit-user-select: none;
   user-select: none;
   background-color: white;
@@ -147,7 +147,7 @@ body.ar #info {
 }
 
 #stabilization {
-  background-image: url(/stabilization.gif);
+  background-image: url("../public/stabilization.gif");
   background-size: contain;
   background-repeat: no-repeat;
   width: 400px;
